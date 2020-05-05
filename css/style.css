@@ -1,0 +1,132 @@
+body{
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  color: #e43f5a;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  color: #e43f5a;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #1f4068;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a{
+  color: #f5b971;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.top-container{
+  background-color: #ffacb7;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  margin: 100px 0;
+
+}
+
+.bottom-container{
+  background-color: #ffe0ac;
+  padding: 50px 0 20px;
+
+
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.top-comment{
+  position: absolute;
+  right: 200px;
+  top: 40px;
+}
+.bottom-comment{
+position: absolute;
+left: 200px;
+bottom: 500px;
+}
+
+.engineer-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cooking-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.testbutton {
+  font-family: arial;
+  color: #F7F2F0 !important;
+  font-size: 20px;
+  text-shadow: 1px 1px 0px #FA684B;
+  box-shadow: 1px 1px 1px #FAB967;
+  padding: 10px 25px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  border: 2px solid #FF624A;
+  background: #FFBD69;
+  background: linear-gradient(top,  #FF624A,  #F7AEA5);
+  background: -ms-linear-gradient(top,  #FF624A,  #F7AEA5);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF624A), to(#F7AEA5));
+  background: -moz-linear-gradient(top,  #FF624A,  #F7AEA5);
+}
+.testbutton:hover {
+  color: #FC3E21 !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #FFAC9C,  #FFAC9C);
+  background: -ms-linear-gradient(top,  #FFAC9C,  #FFAC9C);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFAC9C), to(#FFAC9C));
+  background: -moz-linear-gradient(top,  #FFAC9C,  #FFAC9C);
+}
